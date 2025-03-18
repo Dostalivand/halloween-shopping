@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Dana";
+  src: url(../Font/DanaFaNum-Regular.woff2);
+}
+
+.kalameh-bold {
+  font-family: "Kalameh-bold";
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Dana";
+  background-color: #E0E0E0;
+}
+
+.btn-primary {
+  background-color: #e68917;
+}
+
+.text-orange {
+  color: #ff9d26;
+}
+
+.btn-primary:hover {
+  background-color: #d17c14;
+}
+
+button {
+  outline: none !important;
+  background: transparent;
+}
+
+.login-page {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login-page {
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.wrap-login-page {
+  width: 670px;
+  background: #353746;
+}
+
+.login-form-title {
+  z-index: 1;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 15px 74px 15px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-style {
+  padding: 13px 20px;
+  padding-right: 55px;
+  height: 48px;
+  outline: none;
+  background-color: #1f2029;
+}
+
+.input-icon {
+  top: 0;
+  right: 18px;
+  height: 48px;
+  line-height: 48px;
+}
+
+.bi-arrow-left-circle {
+  bottom: -2px;
+}
+
+.warning {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  background: #F44336;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
